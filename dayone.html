@@ -46,6 +46,8 @@
         <bdi>bdi tag used here automatically decides the direction of the text</bdi><br />
         <bdo dir="ltr">bdo tag used here</bdo>
         <data value="101">data tag used here</data>
+        <aside>Aside tag used here</aside>
+        <article>Article tag used here</article>
     </div>
 
     <a href="https://www.google.com">This is a anchor tag used to link pages and websites</a>
@@ -74,14 +76,45 @@
                 <option>Full_Stack</option>
                 <option>MySQL</option>
             </select>
+            <p>This Checkbox allows multiple Selection</p>
+            <input type="checkbox">First</input>
+            <input type="checkbox">Second</input>
+            <input type="checkbox">Third</input>
+
+            <p>This radio button allows multiple selection</p>
+            <input type="radio">One</input>
+            <input type="radio">Two</input>
+            <input type="radio">Three</input>
+
+            <p>Once we Group radio button using "name" attribute multiple selection is not possible</p>
+            <input type="radio" name="gear">One</input>
+            <input type="radio" name="gear">Two</input>
+            <input type="radio" name="gear">Three</input>
+            <input type="radio" name="gear">Four</input>
+            <input type="radio" name="gear">Rev</input>
+
+            <p>Datalist tag used here</p>
+            <input list="cities"/>
+                <datalist id="cities">
+                    <option value="Chennai"></option>
+                    <option value="Bangalore"></option>
+                </datalist>
+
+
         </fieldset>
     </form>
+    <p>progress tag used below</p>
+    <progress value="60" max="100"></progress>
+    <P>meter tag used below</P>
+    <meter value="0.8" min="0" max="1">80%</meter>
+
     <button>This is a actual button</button>
     <a href="https://mail.google.com"><button>gmail</button></a>
     <a href="https://www.google.com" target="_blank">This will open the page in a new tab</a>
 
     <div class="Table_Fist_Div" id="Table-Fist_Div">
         <table>
+            <caption>Activity Data Table</caption>
             <thead>
                 <th>S.No</th>
                 <th>Date</th>
